@@ -1,0 +1,11 @@
+{
+  "pack": 
+      {
+        "name":"Mythic Origins",
+        "id":"mythicorigins",
+        "pack_format":6,
+        "description":"Origins for the Mythic Craft Server",
+        "authors":"Nymestro",
+        "version":"1.0"
+      }
+}

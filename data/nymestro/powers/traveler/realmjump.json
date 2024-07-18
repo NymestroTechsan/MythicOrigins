@@ -1,0 +1,65 @@
+{
+	"type": "origins:active_self",
+	"key": "key.saveToolbarActivator",
+	"cooldown": 60,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index": 7
+	},
+	"entity_action": {
+		"type": "origins:if_else_list",
+		"actions": [
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:end_stone"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:execute_command",
+					"command": "execute in minecraft:the_end run tp @s ~ ~ ~"
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:dirt"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:execute_command",
+					"command": "execute in minecraft:overworld run tp @s ~ ~ ~"
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:netherrack"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:execute_command",
+					"command": "execute in minecraft:the_nether run tp @s ~ ~ ~"
+				}
+			}
+		],
+		"else_action": {
+			"type": "origins:nothing"
+		}
+	}
+}

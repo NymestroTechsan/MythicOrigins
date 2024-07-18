@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"nymestro:builder/buildersAnchor",
+		"nymestro:builder/deeperPockets",
+		"nymestro:builder/builderStride",
+		"nymestro:builder/biggerBiggerBetter",
+		"nymestro:builder/theBuildingNeverStops",
+		"nymestro:builder/hermitsInfluence",
+		"nymestro:builder/greenGriefers"
+	],
+	"icon": "minecraft:potato",
+	"order": 10,
+	"impact": 3,
+	"name": "Builder",
+	"description": "The desire to build and create is in your very being. You will create giant structures and intricate landscapes, being remembered through your creations. You do love a good prank and some good mischief on the side."
+}

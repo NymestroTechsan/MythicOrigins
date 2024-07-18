@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"nymestro:traveler/realmjump"
+	],
+	"icon": "minecraft:potato",
+	"order": 11,
+	"impact": 3,
+	"name": "Traveler",
+	"description": "A traveler from beyond the stars, you have seen wonders beyond mortal comprehension. Your curiosity leads you to explore the unknown, seeking new horizons and experiences. Though you may seem aloof, you care deeply for those you meet on your journeys."
+}

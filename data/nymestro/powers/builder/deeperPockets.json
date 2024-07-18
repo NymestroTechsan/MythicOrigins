@@ -1,0 +1,9 @@
+{
+	"name": "Deeper Pockets",
+	"description": "Your personal ender storage is never far. Simply reach into your pockets and rummage.",
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:ender_chest"
+	},
+	"key": "key.saveToolbarActivator"
+}

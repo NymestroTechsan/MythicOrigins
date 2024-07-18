@@ -1,0 +1,15 @@
+{
+	"name": "The Building Never Stops",
+	"description": "Cannot sleep without a roof over your head.",
+	"type": "origins:prevent_sleep",
+	"message": "You may not sleep without a roof over you'r head",
+	"set_spawn_point": true,
+	"priority": true,
+	"condition": {
+		"type": "origins:block_collision",
+		"offset_x": 0,
+		"offset_y": 10,
+		"offset_z": 0,
+		"invert": true
+	}
+}
